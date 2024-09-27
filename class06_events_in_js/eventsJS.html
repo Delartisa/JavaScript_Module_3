@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events in JavaScript</title>
+    <script src="eventsJS.js" defer></script>
+    <!-- defer - adiciona o arquivo js no final do carregamento da página, para que o arquivo html seja carregado prinmeiro e nao haja erros como uma função que tecnicamente ainda não existe. -->
+</head>
+<body>
+    <h1>Events in JavaScript</h1>
+    <hr>
+
+    <h2>Registre-se!</h2>
+    <section>
+        <label for="password">Nome de usuario: </label>
+        <input type="text" name="username" id="username">
+        <br>
+        <label for="password">Senha: </label>
+        <input type="password" name="password" id="password">
+        <br>
+        <label for="passwordConfirmation">Confirme a senha: </label>
+        <input type="password" name="passwordConfirmation" id="passwordConfirmation">
+        <br>
+        <button id="register_button">Registrar</button>
+        <button id="remove_button">Remover evento</button>
+    </section>
+</body>
+</html>

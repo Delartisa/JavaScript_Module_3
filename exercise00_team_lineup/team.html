@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team Lineup</title>
+    <script src="team.js"></script>
+</head>
+
+<body>
+    <h1>Team Lineup</h1>
+    <hr>
+
+    <h2>Escalar Jogador</h2>
+
+    <label for="playerName">Nome do Jogador: </label> 
+    <input type="text" name="playerName" id="playerName">
+    <br><br>
+    <label for="playerPosition">Posição do Jogador: </label>
+    <input type="text" name="playerPosition" id="playerPosition">
+    <br><br>
+    <label for="playerNumber">Número do Jogador: </label>
+    <input type="text" name="playerNumber" id="playerNumber">
+    <br><br>
+    <button onclick="addPlayer()">Escalar</button>
+    <hr>
+
+    <h2>Excluir Jogador</h2>
+    <label for="playerRemoved">Digite o número do Jogador: </label>
+    <input type="text" name="playerRemoved" id="playerRemoved">
+    <br><br>
+    <button onclick="removePlayer()">Excluir</button>
+    <br><br><hr>
+
+    <section id="players-list">
+        <h2>Jogadores Escalados</h2>
+    </section>
+
+</body>
+</html>
